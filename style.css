@@ -1,0 +1,69 @@
+/* General body styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f7;
+  color: #333;
+}
+
+/* Page wrapper for consistent spacing */
+.page-wrapper {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Header styles */
+header {
+  border-bottom: 2px solid #007BFF;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #007BFF;
+  font-size: 24px;
+}
+
+/* Main content styles */
+main {
+  margin-bottom: 20px;
+}
+
+main h2 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.content {
+  background-color: #f9f9f9;
+  border-left: 4px solid #007BFF;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+/* Utility classes */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
